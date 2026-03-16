@@ -18,7 +18,7 @@ const SignUp = () => {
   //function to send out data to the server
   const submit=async(e)=>{
 
-    e.preventDefault()
+   e.preventDefault()
 
     setLoading("please wait.....")
     try {
