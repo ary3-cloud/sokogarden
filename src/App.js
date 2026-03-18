@@ -23,15 +23,16 @@ function App() {
       <nav>
      <Link to="/signup" className='btn btn-dark m-2'>Sign Up</Link>
      <Link to="/signin"className='btn btn-dark m-2' >Sign In</Link>
-     <Link to="/getproducts"className='btn btn-dark m-2' >Get Products</Link>
+     <Link to="/"className='btn btn-dark m-2' >Get Products</Link>
      <Link to="/addproducts" className='btn btn-dark m-2'>Add Products</Link>
      </nav>
      
      <Routes>
       <Route path="/signup" element={<SignUp/>}/>
       <Route path='/signin'element={<SignIn/>}/>    
-      <Route path='/getproducts'element={<GetProducts/>}/>
+      <Route path='/'element={<GetProducts/>}/>
       <Route path='/addproducts' element={<AddProducts/>}/>
+      <Route path='/mpesa' element={<MpesaPayment/>}/>
      </Routes>
      
 
